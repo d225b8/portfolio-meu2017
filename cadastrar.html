@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mostra de Estágios Universitária</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/app.css" rel="stylesheet" media="all">
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Source+Sans+Pro:400,400i,700" rel="stylesheet">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="manifest.json">
+		<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
+
+        <meta property="og:locale" content="pt_BR">
+        <meta property="og:url" content="http://localhost">
+        <meta property="og:title" content="Mostra de Estágios Universitária">
+        <meta property="og:site_name" content="Mostra de Estágios Universitária">
+        <meta property="og:description" content="Acesse e conheça a Mostra de Estágios Universitária!">
+        <meta property="og:image" content="https://i.imgbox.com/PV5YWGW7.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="360">
+        <meta property="og:type" content="website">
+
+        <meta name="theme-color" content="#222">
+    </head>
+
+    <body>
+		
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+  	<div class="container">
+    	<div class="navbar-header">
+        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	        	<span class="sr-only">Toggle navigation</span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+        	</button>
+        	<a class="navbar-brand" href="index.htm">
+				<img src="images/logo-meu-menu.png" alt="">
+        	</a>
+    	</div>
+    	<div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">As Empresas <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+													<li><a href="estande/c4ca4238a0b923820dcc509a6f75849b/1.html" class="text-diamond">Instituto Euvaldo Lod</a></li>
+													<li><a href="estande/c81e728d9d4c2f636f067f89cc14862c/2.html" class="text-diamond"> Centro de Produção da UERJ</a></li>
+													<li><a href="estande/eccbc87e4b5ce2fe28308fd9f2a7baf3/3.html" class="text-diamond">Centro de Integração Empresa-Escola</a></li>
+													<li><a href="estande/a87ff679a2f3e71d9181a67b7542122c/4.html" class="text-diamond">Green People</a></li>
+													<li><a href="estande/e4da3b7fbbce2345d7772b0674a318d5/5.html" class="text-diamond">Secretaria de Estado de Fazenda RJ</a></li>
+													<li><a href="estande/1679091c5a880faf6fb5e6087eb1b2dc/6.html" class="text-diamond">SECTI</a></li>
+													<li><a href="estande/8f14e45fceea167a5a36dedd4bea2543/7.html" class="text-diamond">TI Rio</a></li>
+													<li><a href="estande/c9f0f895fb98ab9159f51fd0297e236d/8.html" class="text-diamond">Secretaria de Estado de Trabalho e Renda</a></li>
+													<li><a href="estande/45c48cce2e2d7fbdea1afc51c7c6ad26/9.html" class="text-diamond">Fundação Mudes</a></li>
+													<li><a href="estande/d3d9446802a44259755d38e6d163e820/10.html" class="text-diamond">PHD Soft</a></li>
+													<li><a href="estande/6512bd43d9caa6e02c990b0a82652dca/11.html" class="text-diamond">Núcleo Brasileiro de Estágios</a></li>
+											</ul>
+				</li>
+				<li>
+					<a href="faleconosco.html">Fale Conosco</a>
+				</li>
+			</ul>
+
+						<ul class="nav navbar-nav navbar-right">
+				<p class="navbar-text text-center">
+					Usuário dos Santos Teste
+				</p>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recursos <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="palestras.html">Palestras</a></li>
+						<li><a href="workshop.html">Workshop</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="https://www.qzzr.com/c/quiz/433153/mostra-de-estagios-universitaria-da563587-243f-49a5-91f9-810d22d5c202" target="_blank">Quiz</a></li>
+						<li><a href="#">Baixar Certificado</a></li>
+						<li><a href="https://goo.gl/forms/rS2eyaGj6LCYOIAn2" target="_blank">Avaliar o Evento</a></li>
+
+						
+						<li role="separator" class="divider"></li>
+
+						<li>
+							<a href="logout.html" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Sair</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<!-- segurança do fw, logout deve ser enviado via post -->
+			<form id="logout-form" action="http://localhost:8000/logout" method="POST" style="display: none;"><input type="hidden" name="_token" value="YDLFPwR4plgiIjNwiLiIMO6S2470WgEuTenLUvyj"> </form>
+			    	</div><!--/.nav-collapse -->
+	</div>
+</nav>
+
+		
+        
+        
+        
+<div class="brzao"></div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Formulário de Cadastro</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <p>Bem vindo ao ambiente de registro da Mostra Universitária de Estágios virtual do Estado do Rio de Janeiro!</p>
+            <p>O evento online ocorrerá de 28/07/2017 até 04/08/2017.</p>
+            <p>Agora você poderá inserir suas informações para ter o <strong><span class="popoverFormCadastro" data-content="Disponível para download ao fim do evento." rel="popover" data-placement="top" data-original-title="Aviso">certificado</span></strong> e acesso gratuito a todo o ambiente virtual e aproveitar todas as oportunidades dispostas na plataforma.</p>
+            <p>Complete seu registro abaixo. Todos os campos são de preenchimento obrigatório.</p>
+        </div>
+
+        <div class="col-md-12">
+                    </div>
+    </div>
+
+    <div class="row">
+        <form role="form" id="formcadastro" name="formcadastro" method="POST" action="http://localhost:8000/p/cadastrar">
+            <input type="hidden" name="_token" value="YDLFPwR4plgiIjNwiLiIMO6S2470WgEuTenLUvyj">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="nome" class="control-label">Nome Completo:</label>
+                    <input id="nome" type="text" name="nome" class="form-control" value="" pattern=".{8,}" placeholder="Informe seu nome completo" title="Mínimo 8 caracteres." maxlength="96" required="" autofocus="">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="email" class="control-label">Email:</label>
+                    <input id="email" type="email" name="email" class="form-control" value="" placeholder="exemplo@email.com" maxlength="128" required="">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="telefone" class="control-label">Telefone:</label>
+                    <input id="telefone" type="text" name="telefone" class="form-control" value="" title="Informe os 10 ou 11 dígitos. Ex.: 2125004444 ou 2198889999" placeholder="Somente números..." pattern=".{10,}" maxlength="11" required="">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="senha" class="control-label">Senha:</label>
+                    <input id="senha" type="password" class="form-control" name="senha" pattern=".{6,}" placeholder="Crie uma senha..." title="Mínimo 6 caracteres." maxlength="32" required="">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="confirma_senha" class="control-label">Confirme a senha:</label>
+                    <input id="confirma_senha" type="password" class="form-control" name="senha_confirmation" pattern=".{6,}" placeholder="Confirme ela aqui..." title="Mínimo 6 caracteres." maxlength="32" required="">
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label">Origem:</label>
+
+                    <div class="row" style="background: #f8f8f8; border:1px dashed #ccc; border-radius:10px">
+                        <div class="col-md-6">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="origem" value="UERJ">
+                                    UERJ - Universidade do Estado do Rio de Janeiro
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="origem" value="UEZO">
+                                    UEZO - Fundação Centro Universitário Estadual da Zona Oeste
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="origem" value="UENF">
+                                    UENF - Fundação de Apoio à Escola Técnica
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="origem" value="CECIERJ">
+                                    CECIERJ - Fundação Cecierj / Consórcio CEDERJ
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="origem" value="FAETEC">
+                                    FAETEC - Fundação de Apoio à Escola Técnica
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="origem" value="OUTRAS">
+                                    Outras
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dados_complementares_instituicoes">
+                
+                <div id="dados-complementares-universidades" class="col-md-12 flag-dadoscomp">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="universidades_curso" class="control-label">Curso:</label>
+                                <input id="universidades_curso" type="text" class="form-control" name="universidades_curso" value="" placeholder="Informe o nome do seu curso..." required="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="universidades_periodo" class="control-label">Período:</label>
+                                <select name="universidades_periodo" id="universidades_periodo" class="form-control">
+                                    <option value="">Escolha...</option>
+                                                                            <option value="PRIMEIRO">PRIMEIRO</option>
+                                                                            <option value="SEGUNDO">SEGUNDO</option>
+                                                                            <option value="TERCEIRO">TERCEIRO</option>
+                                                                            <option value="QUARTO">QUARTO</option>
+                                                                            <option value="QUINTO">QUINTO</option>
+                                                                            <option value="SEXTO">SEXTO</option>
+                                                                            <option value="SÉTIMO">SÉTIMO</option>
+                                                                            <option value="OITAVO">OITAVO</option>
+                                                                            <option value="NONO">NONO</option>
+                                                                            <option value="DÉCIMO">DÉCIMO</option>
+                                                                            <option value="TRANCADO">TRANCADO</option>
+                                                                        <option value="CONCLUIDO">CONCLUÍDO</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+                <div id="dados-complementares-outras" class="col-md-12 flag-dadoscomp">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="outras_nome" class="control-label">Nome da Instituição ou Setor:</label>
+                                <input id="outras_nome" type="text" class="form-control" name="outras_nome" value="" maxlength="128" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="outras_status" class="control-label">Status:</label>
+                                <select name="outras_status" class="form-control">
+                                    <option value="">Escolha...</option>
+                                                                            <option value="PRIMEIRO ANO DO ENSINO MÉDIO" class="option-medio">PRIMEIRO ANO DO ENSINO MÉDIO</option>
+                                                                            <option value="SEGUNDO ANO DO ENSINO MÉDIO" class="option-medio">SEGUNDO ANO DO ENSINO MÉDIO</option>
+                                                                            <option value="TERCEIRO ANO DO ENSINO MÉDIO" class="option-medio">TERCEIRO ANO DO ENSINO MÉDIO</option>
+                                                                            <option value="ENSINO MÉDIO CONCLUÍDO" class="option-medio">ENSINO MÉDIO CONCLUÍDO</option>
+                                                                            <option value="PRIMEIRO PERÍODO (GRADUAÇÃO)" class="option-superior">PRIMEIRO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="SEGUNDO PERÍODO (GRADUAÇÃO)" class="option-superior">SEGUNDO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="TERCEIRO PERÍODO (GRADUAÇÃO)" class="option-superior">TERCEIRO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="QUARTO PERÍODO (GRADUAÇÃO)" class="option-superior">QUARTO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="QUINTO PERÍODO (GRADUAÇÃO)" class="option-superior">QUINTO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="SEXTO PERÍODO (GRADUAÇÃO)" class="option-superior">SEXTO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="SÉTIMO PERÍODO (GRADUAÇÃO)" class="option-superior">SÉTIMO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="OITAVO PERÍODO (GRADUAÇÃO)" class="option-superior">OITAVO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="NONO PERÍODO (GRADUAÇÃO)" class="option-superior">NONO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="DÉCIMO PERÍODO (GRADUAÇÃO)" class="option-superior">DÉCIMO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="GRADUAÇÃO CONCLUÍDA" class="option-superior">GRADUAÇÃO CONCLUÍDA</option>
+                                                                            <option value="FUNCIONÁRIO UERJ" class="option-diversos">FUNCIONÁRIO UERJ</option>
+                                                                            <option value="FUNCIONÁRIO UEZO" class="option-diversos">FUNCIONÁRIO UEZO</option>
+                                                                            <option value="FUNCIONÁRIO UENF" class="option-diversos">FUNCIONÁRIO UENF</option>
+                                                                            <option value="FUNCIONÁRIO CECIERJ/CEDERJ" class="option-diversos">FUNCIONÁRIO CECIERJ/CEDERJ</option>
+                                                                            <option value="FUNCIONÁRIO FAETEC" class="option-diversos">FUNCIONÁRIO FAETEC</option>
+                                                                            <option value="VISITANTE" class="option-diversos2">VISITANTE</option>
+                                                                            <option value="NÃO SE APLICA" class="option-diversos2">NÃO SE APLICA</option>
+                                                                    </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-md-12">&nbsp;</div>
+
+            <div class="col-xs-12 col-md-6">
+                <p>Clicando em "Prosseguir", você concorda com a veracidade das informações fornecidas para o cadastro, que pode implicar em futuras oportunidades ou contato de empresas participantes do evento.</p>
+            </div>
+
+            <div class="col-xs-12 col-md-6">
+                <button type="submit" class="btn btn-primary btn-lg btn-block" id="botao-prosseguir">Prosseguir</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<div class="brzao"></div>
+
+
+        
+        <div id="footer" class="text-left text-white bg-black padding-top padding-bottom">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Mostra de Estágios Universitária</h3>
+
+                <a href="index.htm">Início</a> |
+                <a href="palestras.html">Palestras</a> |
+                <a href="workshop.html">Workshop de Empreendedorismo</a>
+
+                <p>2019 - Universidade do Estado do Rio de Janeiro - Todos os direitos reservados.</p>
+                <p>Plataforma v2.5.1</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+        <script src="js/app.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,513 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mostra de Estágios Universitária</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/app.css" rel="stylesheet" media="all">
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Source+Sans+Pro:400,400i,700" rel="stylesheet">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="manifest.json">
+		<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
+
+        <meta property="og:locale" content="pt_BR">
+        <meta property="og:url" content="http://localhost">
+        <meta property="og:title" content="Mostra de Estágios Universitária">
+        <meta property="og:site_name" content="Mostra de Estágios Universitária">
+        <meta property="og:description" content="Acesse e conheça a Mostra de Estágios Universitária!">
+        <meta property="og:image" content="https://i.imgbox.com/PV5YWGW7.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="360">
+        <meta property="og:type" content="website">
+
+        <meta name="theme-color" content="#222">
+    </head>
+
+    <body>
+		
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+  	<div class="container">
+    	<div class="navbar-header">
+        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	        	<span class="sr-only">Toggle navigation</span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+        	</button>
+        	<a class="navbar-brand" href="index.htm">
+				<img src="images/logo-meu-menu.png" alt="">
+        	</a>
+    	</div>
+    	<div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">As Empresas <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+													<li><a href="estande/c4ca4238a0b923820dcc509a6f75849b/1.html" class="text-diamond">Instituto Euvaldo Lod</a></li>
+													<li><a href="estande/c81e728d9d4c2f636f067f89cc14862c/2.html" class="text-diamond"> Centro de Produção da UERJ</a></li>
+													<li><a href="estande/eccbc87e4b5ce2fe28308fd9f2a7baf3/3.html" class="text-diamond">Centro de Integração Empresa-Escola</a></li>
+													<li><a href="estande/a87ff679a2f3e71d9181a67b7542122c/4.html" class="text-diamond">Green People</a></li>
+													<li><a href="estande/e4da3b7fbbce2345d7772b0674a318d5/5.html" class="text-diamond">Secretaria de Estado de Fazenda RJ</a></li>
+													<li><a href="estande/1679091c5a880faf6fb5e6087eb1b2dc/6.html" class="text-diamond">SECTI</a></li>
+													<li><a href="estande/8f14e45fceea167a5a36dedd4bea2543/7.html" class="text-diamond">TI Rio</a></li>
+													<li><a href="estande/c9f0f895fb98ab9159f51fd0297e236d/8.html" class="text-diamond">Secretaria de Estado de Trabalho e Renda</a></li>
+													<li><a href="estande/45c48cce2e2d7fbdea1afc51c7c6ad26/9.html" class="text-diamond">Fundação Mudes</a></li>
+													<li><a href="estande/d3d9446802a44259755d38e6d163e820/10.html" class="text-diamond">PHD Soft</a></li>
+													<li><a href="estande/6512bd43d9caa6e02c990b0a82652dca/11.html" class="text-diamond">Núcleo Brasileiro de Estágios</a></li>
+											</ul>
+				</li>
+				<li>
+					<a href="faleconosco.html">Fale Conosco</a>
+				</li>
+			</ul>
+
+						<ul class="nav navbar-nav navbar-right">
+				<p class="navbar-text text-center">
+					Usuário dos Santos Teste
+				</p>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recursos <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="palestras.html">Palestras</a></li>
+						<li><a href="workshop.html">Workshop</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="https://www.qzzr.com/c/quiz/433153/mostra-de-estagios-universitaria-da563587-243f-49a5-91f9-810d22d5c202" target="_blank">Quiz</a></li>
+						<li><a href="#">Baixar Certificado</a></li>
+						<li><a href="https://goo.gl/forms/rS2eyaGj6LCYOIAn2" target="_blank">Avaliar o Evento</a></li>
+
+						
+						<li role="separator" class="divider"></li>
+
+						<li>
+							<a href="logout.html" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Sair</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<!-- segurança do fw, logout deve ser enviado via post -->
+			<form id="logout-form" action="http://localhost:8000/logout" method="POST" style="display: none;"><input type="hidden" name="_token" value="YDLFPwR4plgiIjNwiLiIMO6S2470WgEuTenLUvyj"> </form>
+			    	</div><!--/.nav-collapse -->
+	</div>
+</nav>
+
+		
+        
+        
+        
+<div id="capa-palestras">
+    <h1>Palestras</h1>
+</div>
+
+<div class="container margin-top padding-top">
+    <br>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Em destaque</h3>
+        </div>
+    </div>
+
+    <div class="row">
+                <div class="col-sm-4">
+            <div class="panel panel-default altura-350">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/many1PRNJ4k" width="100%" height="100%" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                    </iframe>
+                </div>
+                <div class="panel-body">
+                    <div class="info-scroll">
+                        <p class="text-uppercase"><strong>Sonhe e realize, só depende de você!	</strong></p>
+                        <p title="...ou Entrevistado">Palestrante: Catia Araújo</p>
+                        <p>____</p>
+                        <p>Graduada em psicologia, pós-graduada em gestão de pessoas, Leader Coach, palestrante e escritora.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <div class="col-sm-4">
+            <div class="panel panel-default altura-350">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/videoseries?list=PLpnqu6iDw1ToisRt8Occ7hkLvvk5JZch8" width="100%" height="100%" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                    </iframe>
+                </div>
+                <div class="panel-body">
+                    <div class="info-scroll">
+                        <p class="text-uppercase"><strong>Entrevista com: Fábio Gusmão</strong></p>
+                        <p title="...ou Entrevistado">Palestrante: Fábio Gusmão</p>
+                        <p>____</p>
+                        <p>...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <div class="col-sm-4">
+            <div class="panel panel-default altura-350">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/n1mJ_qZ7RCs" width="100%" height="100%" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                    </iframe>
+                </div>
+                <div class="panel-body">
+                    <div class="info-scroll">
+                        <p class="text-uppercase"><strong>Recrutamento e Seleção por Competências</strong></p>
+                        <p title="...ou Entrevistado">Palestrante: Antonieta Gombar</p>
+                        <p>____</p>
+                        <p>Psicóloga, psicoterapeuta e psicanalista com especialização em psicologia médica e psicossomática. Mestrado em Prevenção da Tensão emocional em doenças cardiovasculares PUC/RJ. Cursando  pós graduação em Neuropsicologia; Professora da FGV Management em gestão de pessoas, RH, no Brasil e RJ. Professora convidada nos cursos de Recrutamento e Seleção por Competências, Formação de Instrutores de Treinamento, Motivação de Equipes, Liderança Gerencial e Gestão de Conflitos.  SEEDUC – Avaliação psicológica para Concurso Público: Diretores , Seb-diretores e Coordenadores Escolares do estado do RJ, cujo objetivo é aplicação de testagem objetiva, de personalidade e situacional, com levantamento e confecção de laudos analíticos e sintéticos para aprovação dos candidatos em fase eliminatória.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <div class="col-sm-4">
+            <div class="panel panel-default altura-350">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/cm7SbPh8mkc" width="100%" height="100%" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                    </iframe>
+                </div>
+                <div class="panel-body">
+                    <div class="info-scroll">
+                        <p class="text-uppercase"><strong>O que as empresas esperam dos novos profissionais?</strong></p>
+                        <p title="...ou Entrevistado">Palestrante: Claudia Faria</p>
+                        <p>____</p>
+                        <p>MBA em RH na FGV / Gestão de saúde IBMEC / Mestrado em gestão de pessoas UFF / 25 anos de experiência em recursos humanos / Professora de MBA em gestão de pessoas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <div class="col-sm-4">
+            <div class="panel panel-default altura-350">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/u58-3TTYdK0" width="100%" height="100%" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                    </iframe>
+                </div>
+                <div class="panel-body">
+                    <div class="info-scroll">
+                        <p class="text-uppercase"><strong>Entrevista com: Alex Lucena</strong></p>
+                        <p title="...ou Entrevistado">Palestrante: Alex Lucena</p>
+                        <p>____</p>
+                        <p>Empreendedor, Alex Lucena é o atual CEO da 4H Tecnologia em Saúde. Nessa entrevista, o empresário relata sua trajetória e por que empreender.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <div class="col-sm-4">
+            <div class="panel panel-default altura-350">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/itsQn6QorAM" width="100%" height="100%" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                    </iframe>
+                </div>
+                <div class="panel-body">
+                    <div class="info-scroll">
+                        <p class="text-uppercase"><strong>Como manter o bem estar para alcançar seus objetivos profissionais?</strong></p>
+                        <p title="...ou Entrevistado">Palestrante: Fabiane Gori Curvo</p>
+                        <p>____</p>
+                        <p>Psicóloga, formada pela PUC-Rio. Especializada em Terapia Cognitivo Comportamental e pós-graduanda em Psicologia Positiva. Tem experiência na área de Terapia Dialética Comportamental, que ajuda na redução do estresse e na regulação emocional. Seu foco é no atendimento clínico individual e em grupos terapêuticos que realiza em seu consultório na cidade do Rio de Janeiro. Escreve semanalmente na plataforma virtual Sala de Ideias, que tem como objetivo compartilhar assuntos da psicologia para o público leigo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <h3>Tem mais ...</h3>
+            <p>Clique nos ítens para abrir mais palestras.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <ul class="lista-palestras">
+                                                                                                                                                                                                                    <li>
+                    <button class="btn btn-default botao-item-palestra" data-toggle="collapse" data-target="#7cc022b4aefd06005ebf9090f71d7038">
+                        <h4 class="text-uppercase">Entrevista com: Lucio Macedo</h4> <span class="caret pull-right"></span>
+                    </button>
+
+                    <div id="7cc022b4aefd06005ebf9090f71d7038" class="collapse">
+                        <div class="panel panel-default" style="margin-top:4px;">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="foto-palestrante-lista">
+                                            <img src="https://trello-attachments.s3.amazonaws.com/589c6658074f02495a7885ef/5967f939c7b28f71b36eaa02/64a6854f056356060380b0e40f3a440b/6_-_Lucio_Macedo.jpg" alt="Lucio Macedo" height="80" class="thumbnail">
+                                        </div>
+                                        <div class="info-scroll-lista">
+                                            <div class="info-palestrante-lista">
+                                                <p><strong>Lucio Macedo</strong></p>
+                                                <p>Nessa entrevista o professor da FVG, com MBA em Marketing pela FGV, Mestre em Administração e Planejamento pela UGF e Graduado em Educação Física, relata sua trajetória e explica por que empreender.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://www.youtube.com/embed/MmVyNWR2uz0" width="560" height="315" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                                                            <li>
+                    <button class="btn btn-default botao-item-palestra" data-toggle="collapse" data-target="#c5da48a760186749ae91e59ec6a99543">
+                        <h4 class="text-uppercase">Como se vestir para uma entrevista de emprego</h4> <span class="caret pull-right"></span>
+                    </button>
+
+                    <div id="c5da48a760186749ae91e59ec6a99543" class="collapse">
+                        <div class="panel panel-default" style="margin-top:4px;">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="foto-palestrante-lista">
+                                            <img src="https://www.meurj.com.br/android-chrome-192x192.png" alt="Bebel Schmidt" height="80" class="thumbnail">
+                                        </div>
+                                        <div class="info-scroll-lista">
+                                            <div class="info-palestrante-lista">
+                                                <p><strong>Bebel Schmidt</strong></p>
+                                                <p>Quem nunca teve dúvidas sobre o que usar em uma entrevista de emprego? Todos os seus problemas foram resolvidos com a dicas da Bebel Schmidt, consultora fashion e CEO da Boutique B.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://www.youtube.com/embed/PegDl-SROFg" width="560" height="315" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                                                            <li>
+                    <button class="btn btn-default botao-item-palestra" data-toggle="collapse" data-target="#59c340626a83fa80045e053d03011fb7">
+                        <h4 class="text-uppercase">Entrevista com: Tufic Derzi</h4> <span class="caret pull-right"></span>
+                    </button>
+
+                    <div id="59c340626a83fa80045e053d03011fb7" class="collapse">
+                        <div class="panel panel-default" style="margin-top:4px;">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="foto-palestrante-lista">
+                                            <img src="https://www.meurj.com.br/android-chrome-192x192.png" alt="Tufic Derzi" height="80" class="thumbnail">
+                                        </div>
+                                        <div class="info-scroll-lista">
+                                            <div class="info-palestrante-lista">
+                                                <p><strong>Tufic Derzi</strong></p>
+                                                <p>Nessa entrevista, para a Mostra de Estágios Universitária, o professor Mestre em Psicopedagogia, Especialista em ADM e MKTG
+e autor de 6 livros, fala sobre as diferenças entre gestão, administração e marketing.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://www.youtube.com/embed/cbkYtgVrhlM" width="560" height="315" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                                                            <li>
+                    <button class="btn btn-default botao-item-palestra" data-toggle="collapse" data-target="#179e2c4d1464e94297db75b15e3166de">
+                        <h4 class="text-uppercase">A Fórmula do Sucesso em menos de 10 minutos.</h4> <span class="caret pull-right"></span>
+                    </button>
+
+                    <div id="179e2c4d1464e94297db75b15e3166de" class="collapse">
+                        <div class="panel panel-default" style="margin-top:4px;">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="foto-palestrante-lista">
+                                            <img src="https://trello-attachments.s3.amazonaws.com/5967f939c7b28f71b36eaa02/600x863/2f83130733f3dca995a60d3147acc7e1/3_-_Fl%C3%A1vio_Avellar.jpeg.jpg" alt="Flávio Avellar" height="80" class="thumbnail">
+                                        </div>
+                                        <div class="info-scroll-lista">
+                                            <div class="info-palestrante-lista">
+                                                <p><strong>Flávio Avellar</strong></p>
+                                                <p>Diretor responsável pela FACTOR desde 1992; Consultor e Coach;Formado pela UERJ, com especialização nas áreas de Organização, Informática e pós-graduado pela FGV/FEAESP em Recursos Humanos; Vivenciou experiências executivas, no Brasil e no Exterior,  em empresas nacionais e internacionais.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://www.youtube.com/embed/LdvZbt52vAk" width="560" height="315" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                                    </ul>
+    </div>
+
+    <div class="row" id="ted">
+        <div class="col-sm-12 col-md-12">
+            <h3>Tem muito mais ...</h3>
+            <p>Clique nos ítens para abrir estas palestras do TED especialmente selecionadas para o Evento.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <ul class="lista-palestras">
+                            <li>
+                    <button class="btn btn-default botao-item-palestra" data-toggle="collapse" data-target="#be8264a66b9127fbfb9db61448f094f8">
+                        <h4 class="text-uppercase">Why the best hire might not have the perfect resume</h4> <span class="caret pull-right"></span>
+                    </button>
+
+                    <div id="be8264a66b9127fbfb9db61448f094f8" class="collapse">
+                        <div class="panel panel-default" style="margin-top:4px;">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="foto-palestrante-lista">
+                                            <img src="https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/e55e9022ba4f62a14f5c1a45b2e0de65bcb85be9_254x191.jpg?" alt="Regina Hartley" height="80" class="thumbnail">
+                                        </div>
+                                        <div class="info-scroll-lista">
+                                            <div class="info-palestrante-lista">
+                                                <p><strong>Regina Hartley</strong></p>
+                                                <p>Throughout her 25-year UPS career – working in talent acquisition, succession planning, learning and development, employee relations, and communications – Regina Hartley has seen how, given the opportunity, people with passion and purpose will astound you. Today, Hartley is a human resources director for UPS Information Services, and makes human connections with employees immersed in technology.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://embed.ted.com/talks/lang/pt-br/regina_hartley_why_the_best_hire_might_not_have_the_perfect_resume" width="560" height="315" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                            <li>
+                    <button class="btn btn-default botao-item-palestra" data-toggle="collapse" data-target="#46988282350dc89b753ad88151b457c7">
+                        <h4 class="text-uppercase">How great leaders inspire action</h4> <span class="caret pull-right"></span>
+                    </button>
+
+                    <div id="46988282350dc89b753ad88151b457c7" class="collapse">
+                        <div class="panel panel-default" style="margin-top:4px;">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="foto-palestrante-lista">
+                                            <img src="http://jackgraham.championmovement.com/wp-content/uploads/sites/40/2015/02/simon-sinek-why1.png" alt="Simon Sinek" height="80" class="thumbnail">
+                                        </div>
+                                        <div class="info-scroll-lista">
+                                            <div class="info-palestrante-lista">
+                                                <p><strong>Simon Sinek</strong></p>
+                                                <p>Simon Sinek explores how leaders can inspire cooperation, trust and change. He&#039;s the author of the classic Start With Why; his latest book is Leaders Eat Last.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://embed.ted.com/talks/lang/pt-br/simon_sinek_how_great_leaders_inspire_action" width="560" height="315" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                            <li>
+                    <button class="btn btn-default botao-item-palestra" data-toggle="collapse" data-target="#16dd144991de75507bed5710859778bc">
+                        <h4 class="text-uppercase">A escalada dos vulneráveis | TEDxSaoPaulo</h4> <span class="caret pull-right"></span>
+                    </button>
+
+                    <div id="16dd144991de75507bed5710859778bc" class="collapse">
+                        <div class="panel panel-default" style="margin-top:4px;">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="foto-palestrante-lista">
+                                            <img src="http://img.estadao.com.br/fotos/colunas/2016/08/102_ruthmanus.jpg" alt="Ruth Manus" height="80" class="thumbnail">
+                                        </div>
+                                        <div class="info-scroll-lista">
+                                            <div class="info-palestrante-lista">
+                                                <p><strong>Ruth Manus</strong></p>
+                                                <p>Ruth Manus é advogada, professora universitária (mestre pela PUC e doutoranda pela Universidade de Lisboa), blogueira e colunista do Estadão e do Observador (em Portugal) e autora do livro Pega Lá Uma Chave de Fenda e outras divagações sobre o amor.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://www.youtube.com/embed/4RbHzSRfoXo" width="560" height="315" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                            <li>
+                    <button class="btn btn-default botao-item-palestra" data-toggle="collapse" data-target="#de2560a1a2b04432fbbb241b02026088">
+                        <h4 class="text-uppercase">Grit: the power of passion and perseverence</h4> <span class="caret pull-right"></span>
+                    </button>
+
+                    <div id="de2560a1a2b04432fbbb241b02026088" class="collapse">
+                        <div class="panel panel-default" style="margin-top:4px;">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="foto-palestrante-lista">
+                                            <img src="https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/653e6ae7dd37474bfb1d4951fb281be8000ee456_254x191.jpg?" alt="Angela Lee Duckworth" height="80" class="thumbnail">
+                                        </div>
+                                        <div class="info-scroll-lista">
+                                            <div class="info-palestrante-lista">
+                                                <p><strong>Angela Lee Duckworth</strong></p>
+                                                <p>At the University of Pennsylvania, Angela Lee Duckworth studies intangible concepts such as self-control and grit to determine how they might predict both academic and professional success.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://embed.ted.com/talks/lang/pt-br/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance" width="560" height="315" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                    </ul>
+    </div>
+</div>
+
+
+        
+        <div id="footer" class="text-left text-white bg-black padding-top padding-bottom">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Mostra de Estágios Universitária</h3>
+
+                <a href="index.htm">Início</a> |
+                <a href="palestras.html">Palestras</a> |
+                <a href="workshop.html">Workshop de Empreendedorismo</a>
+
+                <p>2019 - Universidade do Estado do Rio de Janeiro - Todos os direitos reservados.</p>
+                <p>Plataforma v2.5.1</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+        <script src="js/app.js" type="text/javascript"></script>
+    </body>
+</html>
